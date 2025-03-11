@@ -9,8 +9,10 @@ package com.mycompany.prjclasses;
  * @author lab_services_student
  */
 public class PrjClasses {
-
     public static void main(String[] args) {
-        System.out.println("Hello World! i did my first github");
+        newClass nc = new newClass(); //creating an object of newClass 
+        nc.helloClass(); 
+        
+        System.out.println("nc.strSecondClassVar");
     }
 }
