@@ -13,6 +13,6 @@ public class PrjClasses {
         newClass nc = new newClass(); //creating an object of newClass 
         nc.helloClass(); 
         
-        System.out.println("nc.strSecondClassVar");
+        System.out.println("nc.strSecondClassVar" );
     }
 }
